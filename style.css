@@ -1,0 +1,37 @@
+:root{
+    --valor-total:256px;
+}
+.circulo{
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #202020 ;
+    
+
+}
+#c1{
+    width: var(--valor-total);
+    height: var(--valor-total);
+    background-color: red;
+    
+
+}
+#c2{
+    width: calc(var(--valor-total) - 50px);
+    height: calc(var(--valor-total) - 50px);
+    background-color: white;
+
+}
+#c3{
+    width: calc(var(--valor-total) - 100px);
+    height: calc(var(--valor-total) - 100px);
+    background-color: red;
+
+}
+#c4{
+    width: calc(var(--valor-total) - 150px);
+    height: calc(var(--valor-total) - 150px);
+    background-color: blue;
+
+}
